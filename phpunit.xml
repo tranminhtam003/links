@@ -27,5 +27,9 @@
         <env name="CACHE_DRIVER" value="array"/>
         <env name="SESSION_DRIVER" value="array"/>
         <env name="QUEUE_DRIVER" value="sync"/>
+        <!-- .. -->
+        <env name="DB_ CONNECTION" value="sqlite"/>
+        <env name="DB_ DATABASE" value=":memory:"/>
+        <!-- .. -->
     </php>
 </phpunit>
